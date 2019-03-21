@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "My App",
       theme: ThemeData.light(),
-      home: BottomNavigation(),
+      home: BottomNavigationWidget(),
     );
   }
 }
