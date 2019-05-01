@@ -1,5 +1,4 @@
-
-name: flutter_demo
+name: flutter_shop
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -7,15 +6,11 @@ description: A new Flutter project.
 # followed by an optional build number separated by a +.
 # Both the version and the builder number may be overridden in flutter
 # build by specifying --build-name and --build-number, respectively.
-# In Android, build-name is used as versionName while build-number used as versionCode.
-# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
-# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
-# Read more about iOS versioning at
-# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# Read more about versioning at semver.org.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -25,12 +20,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   dio: ^2.0.7
-  flutter_swiper : ^1.1.4 
+  flutter_swiper: ^1.1.4
   flutter_screenutil: ^0.5.1
   url_launcher: ^5.0.1
   flutter_easyrefresh: ^1.2.7
   provide: ^1.0.2
-
+  fluttertoast: ^3.0.1
+  fluro: ^1.4.0
+  flutter_html: ^0.9.6
+  sqflite: ^1.1.0
+  shared_preferences: ^0.5.1
+ 
 dev_dependencies:
   flutter_test:
     sdk: flutter
